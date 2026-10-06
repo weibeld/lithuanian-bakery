@@ -32,11 +32,11 @@ Documentation serves as the contract between different agent sessions. It should
 
 ### Software Guidebook
 
-At the highest level, the project is documented in a software guidebook as defined by Simon Brown, kept as a single file in `tableflipper/guidebook.md`.
+At the highest level, the project is documented in a software guidebook as defined by Simon Brown, kept as a single file in `tableflipper/guidebook.md`. The purpose of the software guidebook is to be the entry point to the project that contains everything a newcomer needs to know to start working with the project.
 
-- The guidebook follows the original description from the book _The Software Guidebook_ by Simon Brown: <https://raw.githubusercontent.com/weibeld/assets/main/the-software-guidebook-simon-brown.md>. Read this description before writing or restructuring a section.
+- The guidebook consists of a fixed set of sections (Context, Functional Overview, Quality Attributes, Constraints, Principles, Software Architecture, Code, Data, Infrastructure Architecture, Deployment, Operation and Support, Development Environment, Decision Log) as defined on <https://raw.githubusercontent.com/weibeld/assets/main/the-software-guidebook-simon-brown.md>. Read this description before writing or restructuring a section.
 - The sections that the description marks as not required are included only if they have content.
-- The requirements document and the ADRs are authoritative. The guidebook is a view on them and must not contradict them.
+- Some of the content of the guidebook overlaps with the requirements document and the ADRs. For this overlapping content, the requirements document and the ADRs are authoritative, and the guidebook must not contradict them. 
 - The guidebook is a living document and should always be kept up to date. However, not all sections need to be filled in from the beginning. The guidebook can gradually approach completion as the project approaches completion too.
 
 > Note: the software guidebook sections Software Architecture, Infrastructure Architecture, and Deployment may include diagrams, but this workflow does not yet say how to create them. When we know more, we might amend this workflow to prescribe a diagram-as-code or, preferably, a model-as-code solution such as Structurizr or LikeC4. This decision is to be discussed with the user.
